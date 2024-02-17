@@ -35,7 +35,7 @@
 				      <username>${PLATFORM_USERNAME}</username>
 				      <password>${PLATFORM_PASSWORD}</password>
 				      <applicationName>hello-world-12</applicationName>
-				      <environment>SANDBOX</environment>
+				      <environment>Dev</environment>
 				      <region>us-east-2</region>
 				      <workers>1</workers>
 				      <workerType>MICRO</workerType>
