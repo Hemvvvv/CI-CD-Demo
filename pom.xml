@@ -31,7 +31,7 @@
 				<extensions>true</extensions>
 				<configuration>
 				    <cloudHubDeployment>
-				      <muleVersion>${app.runtime}</muleVersion>
+				      <muleVersion>4.4.0</muleVersion>
 				      <username>Hemanth022024</username>
 				      <password>Hemanth@123</password>
 				      <applicationName>hello-world-12</applicationName>
