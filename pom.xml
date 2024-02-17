@@ -29,6 +29,22 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+				    <cloudHubDeployment>
+				      <muleVersion>${app.runtime}</muleVersion>
+				      <username>${PLATFORM_USERNAME}</username>
+				      <password>${PLATFORM_PASSWORD}</password>
+				      <applicationName>hello-world-12</applicationName>
+				      <environment>sandbox</environment>
+				      <region>us-east-2</region>
+				      <workers>1</workers>
+				      <workerType>MICRO</workerType>
+				      <objectStoreV2>true</objectStoreV2>
+				      <properties>
+				        <key>value</key>
+				      </properties>
+				    </cloudHubDeployment>
+				  </configuration>
 			</plugin>
 		</plugins>
 	</build>
