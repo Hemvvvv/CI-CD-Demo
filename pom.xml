@@ -32,8 +32,8 @@
 				<configuration>
 				    <cloudHubDeployment>
 				      <muleVersion>${app.runtime}</muleVersion>
-				      <username>${PLATFORM_USERNAME}</username>
-				      <password>${PLATFORM_PASSWORD}</password>
+				      <username>Hemanth022024</username>
+				      <password>Hemanth@123</password>
 				      <applicationName>hello-world-12</applicationName>
 				      <environment>Dev</environment>
 				      <region>us-east-2</region>
